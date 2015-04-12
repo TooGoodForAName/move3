@@ -197,7 +197,39 @@
                                                                                                                             <next>
                                                                                                                               <block type="oled_cleardisplay" id="598">
                                                                                                                                 <next>
-                                                                                                                                  <block type="movement_stop" id="159"></block>
+                                                                                                                                  <block type="oled_setcursor" id="599" inline="true">
+                                                                                                                                    <value name="STARTX">
+                                                                                                                                      <block type="math_number" id="600">
+                                                                                                                                        <field name="NUM">15</field>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                    <value name="STARTY">
+                                                                                                                                      <block type="math_number" id="601">
+                                                                                                                                        <field name="NUM">15</field>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                    <next>
+                                                                                                                                      <block type="oled_drawtext" id="602">
+                                                                                                                                        <field name="TEXT">Goodbye!</field>
+                                                                                                                                        <next>
+                                                                                                                                          <block type="robot_delay" id="604" inline="true">
+                                                                                                                                            <value name="DELAY">
+                                                                                                                                              <block type="math_number" id="605">
+                                                                                                                                                <field name="NUM">1000</field>
+                                                                                                                                              </block>
+                                                                                                                                            </value>
+                                                                                                                                            <next>
+                                                                                                                                              <block type="oled_cleardisplay" id="603">
+                                                                                                                                                <next>
+                                                                                                                                                  <block type="movement_stop" id="159"></block>
+                                                                                                                                                </next>
+                                                                                                                                              </block>
+                                                                                                                                            </next>
+                                                                                                                                          </block>
+                                                                                                                                        </next>
+                                                                                                                                      </block>
+                                                                                                                                    </next>
+                                                                                                                                  </block>
                                                                                                                                 </next>
                                                                                                                               </block>
                                                                                                                             </next>
