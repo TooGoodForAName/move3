@@ -131,7 +131,27 @@
                                                                                           </block>
                                                                                         </value>
                                                                                         <next>
-                                                                                          <block type="movement_stop" id="159"></block>
+                                                                                          <block type="led_select" id="434" inline="true">
+                                                                                            <field name="ACTION">OFF</field>
+                                                                                            <value name="LED">
+                                                                                              <block type="math_number" id="435">
+                                                                                                <field name="NUM">1</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="led_select" id="432" inline="true">
+                                                                                                <field name="ACTION">OFF</field>
+                                                                                                <value name="LED">
+                                                                                                  <block type="math_number" id="433">
+                                                                                                    <field name="NUM">3</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="movement_stop" id="159"></block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
                                                                                         </next>
                                                                                       </block>
                                                                                     </next>
