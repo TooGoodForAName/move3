@@ -30,7 +30,7 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="588">
-                    <field name="TEXT">Hello World</field>
+                    <field name="TEXT">Hello Everybody!</field>
                     <next>
                       <block type="oled_setcursor" id="465" inline="true">
                         <value name="STARTX">
